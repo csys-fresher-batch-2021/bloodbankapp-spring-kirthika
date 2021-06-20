@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,7 +18,7 @@ import in.kirthika.service.DonorManager;
 /**
  * Servlet implementation class DisplayDonorjson
  */
-@WebServlet("/DisplayDonorjson")
+//@WebServlet("/DisplayDonorjson")
 public class DisplayDonorjson extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
